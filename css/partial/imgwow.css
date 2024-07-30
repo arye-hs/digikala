@@ -1,0 +1,44 @@
+div.imgwow {
+    width: 100%;
+    height: 310px;
+text-align: center;
+}
+div.imgwow>div.four{
+    height: inherit;
+    width: 90%;
+    margin: 0 auto;
+    display: inline-block;
+    padding: 35px;
+}
+div.imgwow div.first{
+    width: 310px;
+    height: 235px;
+    display: inline-block;
+    margin: 0 -20px 0 20px;
+}
+div.imgwow div.second{
+    width: 310px;
+    height: 235px;
+    display: inline-block;
+    margin: 0 0 0 20px;
+}
+div.imgwow div.third{
+    width: 310px;
+    height: 235px;
+    display: inline-block;
+    margin: 0 0 0 20px;
+}
+div.imgwow div.fourth{
+    width: 310px;
+    height: 235px;
+    display: inline-block;
+    margin: 0 0 0 -20px;
+
+}
+div.imgwow div.first>img , div.imgwow div.second>img , div.imgwow div.third>img , div.imgwow div.fourth>img {
+width: 310px;
+height: 235px;
+border-radius: 25px;
+object-fit: cover;
+display: inline-block;
+}

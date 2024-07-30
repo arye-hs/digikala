@@ -1,0 +1,82 @@
+
+div.wrapper div.digiclub {
+    width: 100%;
+    height: 90px;
+    margin-top: 7px;
+}
+div.wrapper div.digiclub>div.indigiclub{
+    width: 1330px;
+    height: inherit;
+    margin: 0 auto;
+    background-color: #037598;
+    border-radius: 20px;
+    box-sizing: border-box;
+    display: flex;
+    padding: 5px;
+}
+div.wrapper div.digiclub>div.indigiclub div.logo{
+    width: 130px;
+    height: 40px;
+    margin-right: 27px;
+    margin-top: 25px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+div.wrapper div.digiclub>div.indigiclub div.logo>svg{
+    width: inherit;
+    height: inherit;
+    line-height: 45px;
+}
+div.wrapper div.digiclub>div.indigiclub div.pic{
+    width: 815px;
+    height: 95%;
+    display: flex;
+    margin-right: 310px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2px;
+}
+div.wrapper div.digiclub>div.indigiclub div.picfinal{
+    display: flex;
+    box-sizing: border-box;
+    background-color: white;
+    margin-right: 3px;
+    border-radius: 7px 0 0 7px;
+
+}
+div.wrapper div.digiclub>div.indigiclub div.picfinal div.left{
+    width: 135px;
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-right: 130px;
+    position: relative;
+}
+div.wrapper div.digiclub>div.indigiclub div.picfinal div.left img{
+    width: inherit;
+    height: inherit;
+    display: inline;
+    position: relative;
+}
+div.wrapper div.digiclub>div.indigiclub div.picfinal:nth-of-type(1){
+    border-radius: 0 7px 7px 0;
+}
+.border{
+    border-radius: 7px 0 0 7px;
+}
+div.wrapper div.digiclub>div.indigiclub div.picfinal h2{
+    display: inline-block;
+}
+div.wrapper div.digiclub>div.indigiclub div.picfinal div.left span{
+   width: 80px;
+   height: inherit;
+    position: absolute;
+    left: 170px;
+    top: 25px;
+    text-align: center;
+    font-family: var(--IranYekan);
+    font-size: 14px;
+}

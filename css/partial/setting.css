@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: IranYekan;
+  src: url("../../font/fa/IRANYekanWeb.eot");
+  src: url("../../font/fa/IRANYekanWeb.ttf");
+  src: url("../../font/fa/IRANYekanWeb.woff");
+  src: url("../../font/fa/IRANYekanWeb.woff2");
+}
+:root {
+  --IranYekan: IranYekan;
+}
+.wrapper {
+  width: 100%;
+}
+.swiper-rtl .swiper-button-prev{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  border: 1px solid lightgray;
+  box-shadow: inset 0 0 2px lightgray;
+}
+.swiper-rtl .swiper-button-next {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  border: 1px solid lightgray;
+  box-shadow: inset 0 0 2px lightgray;
+}
+.swiper-rtl .swiper-button-prev:after{
+  font-size: 10px;
+  font-weight: bold;
+  color: black;
+}
+.swiper-rtl .swiper-button-next:after {
+  font-size: 10px;
+  font-weight: bold;
+  color: black;
+}
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+  opacity: 0;
+}
+:root {
+  --spacing-base: 4px;
+  --main-border-radius: 8px;
+  --text-primary-color: #000;
+  --text-secondary-color: #3f4063;
+  --text-story--color: #24264f;
+  --text-ternary-color: #82868c;
+  --nav-text-color: #63676e;
+  --search-bg-color: #f2f2f2;
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #d9304f;
+  --interestings-slider-items-color: #656970;
+}

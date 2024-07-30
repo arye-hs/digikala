@@ -1,0 +1,89 @@
+.mini__links {
+  width: 100%;
+  height: 120px;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  .mini__links__images {
+    width: 1336px;
+    height: inherit;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 55px;
+    div {
+      width: 82px;
+      height: 104px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      a {
+        width: inherit;
+        height: inherit;
+        text-decoration: none;
+        font-family: var(--IranYekan);
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: flex-start;
+        align-content: flex-start;
+        line-height: 20px;
+        row-gap: 10px;
+        font-size: 12px;
+        text-align: center;
+        .more {
+          width: 56px;
+          height: 56px;
+          background-color: #f0f0f1;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          img{
+            margin-left: 13px;
+            margin-top: 9px;
+            
+          }
+          p {
+            width: inherit;
+            height: 48px;
+            align-items: center;
+            line-height: 20px;
+          }
+        }
+        div {
+          width: 56px;
+          height: 56px;
+          .circule {
+            width: 52px;
+            height: 52px;
+            border-radius: 50%;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            p {
+              width: inherit;
+              height: 48px;
+              align-items: center;
+              line-height: 20px;
+            }
+          }
+          img {
+            width: 52px;
+            height: 52px;
+            border-radius: 16px;
+            p {
+              width: inherit;
+              height: 48px;
+              align-items: center;
+              line-height: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

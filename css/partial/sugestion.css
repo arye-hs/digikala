@@ -1,0 +1,61 @@
+div.wrapper div.suggestion{
+    height: 405px;
+    width: 100%;
+margin-top: 20px;
+}
+div.wrapper div.suggestion div.suggestiontext{
+    width: 1305px;
+    height: 100px;
+margin: auto;
+}
+div.wrapper div.suggestion div.suggestiontext>h2{
+    font-size: 23px;
+    font-family: Yekan;
+    text-align: center;
+    padding-top: 25px;
+}
+div.wrapper div.suggestion div.suggestionitem{
+    width: 1305px;
+    height: 305px;
+    margin: auto;
+}
+div.wrapper div.suggestion div.suggestionitem div.items{
+    display: inline-block;
+    width: 185px;
+    height: 151px;
+    border: 0.5px rgba(154, 154, 154, 0.614) solid;
+    margin-right: -4px;
+}
+div.wrapper div.suggestion div.suggestionitem div.items:nth-of-type(1){
+    border-radius: 0 20px 0 0 ;
+}
+div.wrapper div.suggestion div.suggestionitem div.items:nth-of-type(8){
+    border-radius: 0 0 20px 0 ;
+}
+div.wrapper div.suggestion div.suggestionitem div.items:nth-of-type(7){
+    border-radius: 20px 0 0 0 ;
+}
+div.wrapper div.suggestion div.suggestionitem div.items:nth-of-type(14){
+    border-radius: 0 0 0 20px ;
+}
+div.wrapper div.suggestion div.suggestionitem div.items>div.suggestionimg{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: whitesmoke;
+    margin-top: 15px;
+    margin-right: 40px;
+    border-radius: 50%;
+}
+div.wrapper div.suggestion div.suggestionitem div.items>div.suggestionimg>img{
+    width: 65px;
+    height: 65px;
+    margin-right: 17px;
+    margin-top: 15px;
+}
+div.wrapper div.suggestion div.suggestionitem h4{
+    font-size: 13px;
+    font-family: Yekan;
+    text-align: center;
+    margin-top: 10px;
+} 

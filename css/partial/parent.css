@@ -1,0 +1,177 @@
+div.parent div.electronics{
+    width: 100%;
+    height: 420px;
+    margin-top: 20px;
+}
+div.parent div.electronics div.elecitem{
+    width: 1333px;
+    height: inherit;
+    border-radius: 20px;
+border: 0.5px solid rgba(154, 154, 154, 0.614);
+    margin: 0 auto;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+div.parent div.electronics div.elecitem div.goshi {
+    width: 330px;
+    height: inherit;
+    display: inline-block;
+    margin: 0;
+    box-sizing: border-box;
+    border-left: 0.5px solid rgba(154, 154, 154, 0.614) ;
+}
+div.parent div.electronics div.elecitem div.cover{
+    width: 330px;
+    height: inherit;
+    display: inline-block;
+    margin: 0;
+    box-sizing: border-box;
+    margin-right: -4px;
+    border-left: 0.5px solid rgba(154, 154, 154, 0.614);
+}
+div.parent div.electronics div.elecitem div.headphone{
+    width: 330px;
+    height: inherit;
+    display: inline-block;
+    margin: 0;
+    box-sizing: border-box;
+    margin-right: -4px;
+    border-left: 0.5px solid rgba(154, 154, 154, 0.614);
+}
+div.parent div.electronics div.elecitem div.saat{
+    width: 330px;
+    height: inherit;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-right: -19px;
+}
+div.parent div.electronics div.elecitem div.text{
+    width: inherit;
+    height: 70px;
+}
+div.parent div.electronics div.elecitem div.text h2{
+    padding-right: 20px;
+    vertical-align: top;
+padding-top: 7px;
+padding-bottom: 7px;
+font-family: var(--IranYekan);
+color: black;
+font-size: 16px;
+font-weight: 700;
+}
+div.parent div.electronics div.elecitem div.text span{
+    vertical-align: top;
+margin-top: -10px;
+margin-right: 19px;
+font-family: var(--IranYekan);
+color: #8cabbb;
+font-size: 10px;
+font-weight: 600;
+}
+div.parent div.electronics div.elecitem  div.saat div.text h2{
+    padding-right: 25px !important;
+}
+div.parent div.electronics div.elecitem  div.saat div.text span{
+    padding-right: 8px;
+}
+div.parent div.electronics div.elecitem div.img{
+    width: inherit;
+    height: 295px;
+    box-sizing: border-box;
+    text-align: center;
+}
+div.parent div.electronics div.elecitem div.img div.ImgTop{
+    width: 85%;
+    height: 50%;
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    border-bottom: 0.5px solid rgba(154, 154, 154, 0.614);
+
+}
+div.parent div.electronics div.elecitem div.img div.ImgBottom{
+    width: inherit;
+    height: 50%;
+    display: inline-block;
+    margin-top: -4px;
+    box-sizing: border-box;
+}
+div.parent div.electronics div.elecitem div.goshi div.img div.ImgTop img{
+   width: 130px;
+    display: inline-block; 
+    box-sizing: border-box;
+}
+div.parent div.electronics div.elecitem div.goshi div.img div.ImgBottom img{
+    width: 130px;
+     display: inline-block; 
+     box-sizing: border-box;
+     margin-top: 21px;
+ }
+ div.parent div.electronics div.elecitem div.cover div.img div.ImgTop img{
+    width: 130px;
+     display: inline-block; 
+     box-sizing: border-box;
+ }
+ div.parent div.electronics div.elecitem div.cover div.img div.ImgBottom img{
+     width: 130px;
+
+      display: inline-block; 
+      box-sizing: border-box;
+      margin-top: 21px;
+  }
+  div.parent div.electronics div.elecitem div.headphone div.img div.ImgTop img{
+    width: 130px;
+     display: inline-block; 
+     box-sizing: border-box;
+ }
+ div.parent div.electronics div.elecitem div.headphone div.img div.ImgBottom img{
+     width: 130px;
+      display: inline-block; 
+      box-sizing: border-box;
+      margin-top: 21px;
+  }
+  div.parent div.electronics div.elecitem div.saat div.img div.ImgTop img{
+    width: 130px;
+     display: inline-block; 
+     box-sizing: border-box;
+ }
+ div.parent div.electronics div.elecitem div.saat div.img div.ImgBottom img{
+     width: 130px;
+      display: inline-block; 
+      box-sizing: border-box;
+      margin-top: 21px;
+  }
+  div.parent div.electronics div.elecitem div.moshahede{
+    text-align: center;
+    line-height: 40px;
+    margin-top: 7px;
+  }
+  div.parent div.electronics div.elecitem div.moshahede h2{
+    font-family: var(--IranYekan);
+    font-size: 11px;
+    color: #19bfd3;
+  }
+  div.parent div.electronics div.elecitem div.goshi div.img div.ImgTop img:nth-of-type(1){
+border-left: 0.5px solid rgba(154, 154, 154, 0.614);
+  }
+  div.parent div.electronics div.elecitem div.cover div.img div.ImgTop img:nth-of-type(1){
+    border-left: 0.5px solid rgba(154, 154, 154, 0.614);
+      }
+      div.parent div.electronics div.elecitem div.headphone div.img div.ImgTop img:nth-of-type(1){
+        border-left: 0.5px solid rgba(154, 154, 154, 0.614);
+          }
+          div.parent div.electronics div.elecitem div.saat div.img div.ImgTop img:nth-of-type(1){
+            border-left: 0.5px solid rgba(154, 154, 154, 0.614);
+              }
+              div.parent div.electronics div.elecitem div.goshi div.img div.ImgBottom img:nth-of-type(1){
+                border-left: 0.5px solid rgba(154, 154, 154, 0.614);
+                  }
+                  div.parent div.electronics div.elecitem div.cover div.img div.ImgBottom img:nth-of-type(1){
+                    border-left: 0.5px solid rgba(154, 154, 154, 0.614);
+                      }
+                      div.parent div.electronics div.elecitem div.headphone div.img div.ImgBottom img:nth-of-type(1){
+                        border-left: 0.5px solid rgba(154, 154, 154, 0.614);
+                          }
+                          div.parent div.electronics div.elecitem div.saat div.img div.ImgBottom img:nth-of-type(1){
+                            border-left: 0.5px solid rgba(154, 154, 154, 0.614);
+                              }

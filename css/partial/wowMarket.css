@@ -1,0 +1,122 @@
+body{
+    min-height: 4000px;
+}
+
+div.wrapper div.wowMarket{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+div.wrapper div.wowMarket>div.marketItem{
+    width: 81%;
+    height: 110px;
+    background-color: #ecf0ee;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 10px;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+div.wrapper div.wowMarket>div.marketItem div.basket{
+width: 110px;
+height: 80px;
+box-sizing: border-box;
+display: inline-block;
+vertical-align: middle;
+text-align: center;
+}
+div.wrapper div.wowMarket>div.marketItem div.basket{
+text-align: center;
+display: inline-block;
+box-sizing: border-box;
+margin-top: 15px;
+}
+div.wrapper div.wowMarket>div.marketItem div.shegeftangiz{
+    width: 280px;
+    height: 80px;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: middle;
+    }
+    div.wrapper div.wowMarket>div.marketItem div.shegeftangiz>svg{
+        display: inline-block;
+        vertical-align: middle;
+        text-align: center;
+        margin-top: 23px;
+    }
+    div.wrapper div.wowMarket>div.marketItem div.takhfif{
+        width: 115px;
+        height: 80px;
+        box-sizing: border-box;
+        display: inline-block;
+padding: 2px;
+        vertical-align: middle;
+        }
+        div.wrapper div.wowMarket>div.marketItem div.takhfif>span{
+color: whitesmoke;
+vertical-align: middle;
+display: inline-block;
+margin-top: 20%;
+margin-right: 5px;
+font-size: 15px;
+font-family: Yekan;
+background-color: #3eb006;
+border-radius: 20px;
+padding: 5px;
+        }
+
+        div.wrapper div.wowMarket>div.marketItem div.items{
+            display: inline-block;
+            margin-right: 60px;
+            margin-top: 4px;
+            position: relative;
+        }
+        div.wrapper div.wowMarket>div.marketItem div.items>div.offer{
+            width: 65px;
+            height: 65px;
+            box-sizing: border-box;
+            display: inline-block;
+            background-color: black;
+            vertical-align: middle;
+            margin: 7px;
+            border-radius: 50%;
+            }
+            div.wrapper div.wowMarket>div.marketItem div.more{
+                width: 100px ;
+                height: 30px;
+                display: inline-block;
+                vertical-align: middle;
+          
+                margin-right: 11px;
+            margin-bottom: 5px;
+            }
+            div.wrapper div.wowMarket>div.marketItem div.more>a{
+            
+               width: inherit !important; 
+               display: block;
+               background-color: #ffffff;
+                color: #3eb006;
+                padding: 5px;
+                font-family: Yekan;
+                text-align: center;
+                line-height: 30px;
+                text-decoration: none;
+                border-radius: 20px;
+            }
+            div.wrapper div.wowMarket>div.marketItem div.items>div.offer>img{
+                width: inherit;
+                height: inherit;
+                border-radius: 50%;
+            }
+            div.wrapper div.wowMarket>div.marketItem div.items>div.offer div.percent>span{
+                position: absolute;
+              bottom: 2px;
+            background-color: #ef3f55;
+               border-radius: 30px;
+           color: whitesmoke;
+           font-size: 12px;
+    padding: 3px;
+    font-weight: bold;
+           font-family: Yekan;
+            }
